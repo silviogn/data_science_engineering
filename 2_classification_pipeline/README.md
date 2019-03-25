@@ -1,0 +1,1 @@
+Classifies the italian music dataset. The objective is predict the region of the music. There is improvements to the model using grid search. The pipeline preprocess and prepare the data. At the end the enseble classifier is created and a test to found best hyper-parameters is executed.
