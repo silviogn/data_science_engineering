@@ -1,6 +1,6 @@
 #Course writing effective python code 
 ---------------------------------------------------------------------------------------------------------
-Built-in practice: range()
+#Built-in practice: range()
 
 # Create a range object that goes from 0 to 5
 nums = range(6)
@@ -16,7 +16,7 @@ print(nums_list2)
 
 ---------------------------------------------------------------------------------------------------------
 
-Built-in practice: enumerate()
+#Built-in practice: enumerate()
 
 # Rewrite the for loop to use enumerate
 indexed_names = []
@@ -34,7 +34,7 @@ indexed_names_unpack = [*enumerate(names,1)]
 print(indexed_names_unpack)
 
 ---------------------------------------------------------------------------------------------------------	
-Built-in practice: map()
+#Built-in practice: map()
 
 # Use map to apply str.upper to each element in names
 names_map  = map(str.upper, names)
@@ -49,7 +49,7 @@ names_uppercase = [*names_map]
 print(names_uppercase)
 
 ---------------------------------------------------------------------------------------------------------
-Practice with NumPy arrays
+#Practice with NumPy arrays
 
 # Print second row of nums
 print(nums[1,:])
@@ -66,7 +66,7 @@ nums[:,2] = nums[:,2] + 1
 print(nums)
 
 ---------------------------------------------------------------------------------------------------------
-Using %timeit: formal name or literal syntax
+#Using %timeit: formal name or literal syntax
 
 # Create a list using the formal name
 %timeit formal_list = list()
@@ -85,13 +85,13 @@ print(type(literal_list))
 
 ---------------------------------------------------------------------------------------------------------
 
-Code profiling for runtime
+#Code profiling for runtime
 
-Package
+#Package
 
-pip install line_profiler
+#pip install line_profiler
 
-1) How to load line profiler 
+#1) How to load line profiler
 
 %load_ext line_profiler
 
@@ -100,10 +100,10 @@ pip install line_profiler
 
 ---------------------------------------------------------------------------------------------------------
 
-Code profiling for memory usage
+#Code profiling for memory usage
 
 
-pip install memory_profiler
+#pip install memory_profiler
 
 
 from bmi_lists import calc_bmi_lists	
