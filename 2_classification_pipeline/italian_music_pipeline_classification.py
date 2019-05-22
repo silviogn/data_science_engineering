@@ -1,4 +1,5 @@
 import warnings
+import warnings
 import pandas as pd
 import numpy as np
 
@@ -39,7 +40,7 @@ for name in fields_to_encode:
 #Creates the Target Feature called y
 y = df_italian_ds['root.artist.region']
 
-#drop the target feature from the data frame an create X, containing the features to the model induction. 
+#dropdrop the target feature from the data frame an create X, containing the features to the model induction.
 X = df_italian_ds.drop(['root.artist.region', 'Unnamed: 0'], axis=1).values
 
 
